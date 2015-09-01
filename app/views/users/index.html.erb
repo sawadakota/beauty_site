@@ -1,0 +1,21 @@
+<div class ="mypage">
+  <div class =  "profile clearfix">
+    <div class= "mypage_image">
+      <img src = "<%= @user.avatar %>">
+    </div>
+    <div class ="mypage_text" >
+      <span><%= @user.username %>さん</span><br>
+      <span><%= @user.profile %></span>
+      <a href = "/edit_profile">プロフィールを編集</a>
+    </div>
+  </div>
+
+  <div class ="user_post">
+    <% @posts.each do |post| %>
+      <div class="mypage_post clearfix">
+        <div class="mypage_post_image"><img src ="<%= current_user.avatar %>"></div>
+        <div class="mypage_post_text"><%= post.text %><div>
+      </div>
+    <% end %>
+  </div>
+</div>

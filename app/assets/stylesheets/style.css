@@ -1,0 +1,54 @@
+.log_in{
+  text-align: center;
+}
+
+.post{
+  margin: 0 auto;
+  width: 900px;
+  height: 400px;
+}
+
+.one_post{
+  width: 900px;
+  height: 120px;
+  background-color: blue;
+  border: solid 5px white;
+}
+
+.user_image img{
+  height: 100px;
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.mypage_image img{
+  width: 200px;
+  float: left;
+}
+
+.mypage_text {
+  float: left;
+  border: solid 3px gray;
+  width: 500px;
+  height: 260px;
+}
+
+.mypage_post{
+  background-color: blue;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: block
+}
+
+.mypage_post_image img{
+  height: 100px;
+  float: left;
+}

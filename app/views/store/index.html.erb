@@ -1,0 +1,10 @@
+
+<% @beauty_salons.each do |salon_date| %>
+  <div class="salon_date">
+    <div><img src ="<%= salon_date.salon_image %>"></div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">行ったことある</label>
+    </div>
+    <div><%= salon_date.salon_name %></div>
+  </div>
+<% end %>

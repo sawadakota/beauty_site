@@ -1,0 +1,10 @@
+<%= form_for(@user, url: '/edit_profile') do |f| %>
+  <div class="field">
+    <%= f.label :profile, "プロフィールを編集" %>
+    <%= f.text_area :profile %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "OK" %>
+  </div>
+<% end %>

@@ -1,0 +1,12 @@
+<% @posts.each do |post| %>
+    <a href = "/user_profile/<%= post.user.id %>">
+      <div class="one_post">
+        <div class="user_image">
+          <%= image_tag post.user.avatar %>
+        </div>
+        <div class="text">
+          <%= post.text %>
+        </div>
+      </div>
+    </a>
+<% end %>

@@ -1,0 +1,14 @@
+<%= form_for(@post) do |f| %>
+  <div class="field">
+    <%= f.label :text, "投稿" %>
+    <%= f.text_area :text %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "投稿する" %>
+  </div>
+
+<% end %>
+
+
+
